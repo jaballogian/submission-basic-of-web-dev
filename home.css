@@ -1,0 +1,165 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+h2, h3 {
+  color: #ff6f00
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  background-color: #ffa000;
+  text-align: center;
+  color: white;
+}
+
+nav {
+  background-color: #ff6f00;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  text-align: right;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bold;
+  color: black;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+header {
+  display: inline;
+}
+
+.profile header{
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #ff6f00;
+  text-align: center;
+  font-weight: bold;
+}
+
+#content {
+  float: right;
+  width: 75%;
+}
+
+aside {
+  float: left;
+  width: 25%;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.flex-container-column {
+   display: flex;
+   flex-direction: column;
+
+   /* properti pendukung */
+   max-width: 800px;
+   margin: 0 auto;
+   text-align: right;
+}
+
+.flex-container-row {
+   display: flex;
+}
+
+.button {
+   flex-basis: 25%;
+   font-size: 2em;
+   text-align: center;
+   padding: 10px;
+   margin: 10px;
+}
+
+.button:hover {
+   font-weight: bold;
+   color: black;
+}
+
+.buyButton{
+  background-color: orange;
+  cursor: pointer;
+  font-size: 0.75em;
+  border-radius: 5px;
+  color: white;
+}
+
+section{
+  text-align: center;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+   width: 100%;
+   border: 1px solid #ddd;
+}
+
+th, td {
+   text-align: center;
+   padding: 16px;
+}
+
+th {
+   background-color: orange;
+   color: white;
+}
+
+tr:nth-child(even) {
+   background-color: #d2d2d2;
+}
+
+article{
+  overflow: auto;
+}
